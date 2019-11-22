@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E430BD4B2387A691002F5486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430BD4A2387A691002F5486 /* AppDelegate.swift */; };
+		E430BD4D2387A691002F5486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430BD4C2387A691002F5486 /* ViewController.swift */; };
+		E430BD502387A691002F5486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E430BD4E2387A691002F5486 /* Main.storyboard */; };
+		E430BD522387A694002F5486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E430BD512387A694002F5486 /* Assets.xcassets */; };
+		E430BD552387A694002F5486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E430BD532387A694002F5486 /* LaunchScreen.storyboard */; };
+		E430BD602387A694002F5486 /* Go_jekContactsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430BD5F2387A694002F5486 /* Go_jekContactsAppTests.swift */; };
+		E430BD6B2387A694002F5486 /* Go_jekContactsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430BD6A2387A694002F5486 /* Go_jekContactsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E430BD5C2387A694002F5486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E430BD3F2387A691002F5486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E430BD462387A691002F5486;
+			remoteInfo = "Go-jekContactsApp";
+		};
+		E430BD672387A694002F5486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E430BD3F2387A691002F5486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E430BD462387A691002F5486;
+			remoteInfo = "Go-jekContactsApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E430BD472387A691002F5486 /* Go-jekContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go-jekContactsApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E430BD4A2387A691002F5486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E430BD4C2387A691002F5486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E430BD4F2387A691002F5486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E430BD512387A694002F5486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E430BD542387A694002F5486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E430BD562387A694002F5486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E430BD5B2387A694002F5486 /* Go-jekContactsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go-jekContactsAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E430BD5F2387A694002F5486 /* Go_jekContactsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_jekContactsAppTests.swift; sourceTree = "<group>"; };
+		E430BD612387A694002F5486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E430BD662387A694002F5486 /* Go-jekContactsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go-jekContactsAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E430BD6A2387A694002F5486 /* Go_jekContactsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_jekContactsAppUITests.swift; sourceTree = "<group>"; };
+		E430BD6C2387A694002F5486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E430BD442387A691002F5486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E430BD582387A694002F5486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E430BD632387A694002F5486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E430BD3E2387A691002F5486 = {
+			isa = PBXGroup;
+			children = (
+				E430BD492387A691002F5486 /* Go-jekContactsApp */,
+				E430BD5E2387A694002F5486 /* Go-jekContactsAppTests */,
+				E430BD692387A694002F5486 /* Go-jekContactsAppUITests */,
+				E430BD482387A691002F5486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E430BD482387A691002F5486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E430BD472387A691002F5486 /* Go-jekContactsApp.app */,
+				E430BD5B2387A694002F5486 /* Go-jekContactsAppTests.xctest */,
+				E430BD662387A694002F5486 /* Go-jekContactsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E430BD492387A691002F5486 /* Go-jekContactsApp */ = {
+			isa = PBXGroup;
+			children = (
+				E430BD4A2387A691002F5486 /* AppDelegate.swift */,
+				E430BD4C2387A691002F5486 /* ViewController.swift */,
+				E430BD4E2387A691002F5486 /* Main.storyboard */,
+				E430BD512387A694002F5486 /* Assets.xcassets */,
+				E430BD532387A694002F5486 /* LaunchScreen.storyboard */,
+				E430BD562387A694002F5486 /* Info.plist */,
+			);
+			path = "Go-jekContactsApp";
+			sourceTree = "<group>";
+		};
+		E430BD5E2387A694002F5486 /* Go-jekContactsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E430BD5F2387A694002F5486 /* Go_jekContactsAppTests.swift */,
+				E430BD612387A694002F5486 /* Info.plist */,
+			);
+			path = "Go-jekContactsAppTests";
+			sourceTree = "<group>";
+		};
+		E430BD692387A694002F5486 /* Go-jekContactsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E430BD6A2387A694002F5486 /* Go_jekContactsAppUITests.swift */,
+				E430BD6C2387A694002F5486 /* Info.plist */,
+			);
+			path = "Go-jekContactsAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E430BD462387A691002F5486 /* Go-jekContactsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E430BD6F2387A694002F5486 /* Build configuration list for PBXNativeTarget "Go-jekContactsApp" */;
+			buildPhases = (
+				E430BD432387A691002F5486 /* Sources */,
+				E430BD442387A691002F5486 /* Frameworks */,
+				E430BD452387A691002F5486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Go-jekContactsApp";
+			productName = "Go-jekContactsApp";
+			productReference = E430BD472387A691002F5486 /* Go-jekContactsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E430BD5A2387A694002F5486 /* Go-jekContactsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E430BD722387A694002F5486 /* Build configuration list for PBXNativeTarget "Go-jekContactsAppTests" */;
+			buildPhases = (
+				E430BD572387A694002F5486 /* Sources */,
+				E430BD582387A694002F5486 /* Frameworks */,
+				E430BD592387A694002F5486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E430BD5D2387A694002F5486 /* PBXTargetDependency */,
+			);
+			name = "Go-jekContactsAppTests";
+			productName = "Go-jekContactsAppTests";
+			productReference = E430BD5B2387A694002F5486 /* Go-jekContactsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E430BD652387A694002F5486 /* Go-jekContactsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E430BD752387A694002F5486 /* Build configuration list for PBXNativeTarget "Go-jekContactsAppUITests" */;
+			buildPhases = (
+				E430BD622387A694002F5486 /* Sources */,
+				E430BD632387A694002F5486 /* Frameworks */,
+				E430BD642387A694002F5486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E430BD682387A694002F5486 /* PBXTargetDependency */,
+			);
+			name = "Go-jekContactsAppUITests";
+			productName = "Go-jekContactsAppUITests";
+			productReference = E430BD662387A694002F5486 /* Go-jekContactsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E430BD3F2387A691002F5486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mohit Mathur";
+				TargetAttributes = {
+					E430BD462387A691002F5486 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E430BD5A2387A694002F5486 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E430BD462387A691002F5486;
+					};
+					E430BD652387A694002F5486 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E430BD462387A691002F5486;
+					};
+				};
+			};
+			buildConfigurationList = E430BD422387A691002F5486 /* Build configuration list for PBXProject "Go-jekContactsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E430BD3E2387A691002F5486;
+			productRefGroup = E430BD482387A691002F5486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E430BD462387A691002F5486 /* Go-jekContactsApp */,
+				E430BD5A2387A694002F5486 /* Go-jekContactsAppTests */,
+				E430BD652387A694002F5486 /* Go-jekContactsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E430BD452387A691002F5486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E430BD552387A694002F5486 /* LaunchScreen.storyboard in Resources */,
+				E430BD522387A694002F5486 /* Assets.xcassets in Resources */,
+				E430BD502387A691002F5486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E430BD592387A694002F5486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E430BD642387A694002F5486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E430BD432387A691002F5486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E430BD4D2387A691002F5486 /* ViewController.swift in Sources */,
+				E430BD4B2387A691002F5486 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E430BD572387A694002F5486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E430BD602387A694002F5486 /* Go_jekContactsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E430BD622387A694002F5486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E430BD6B2387A694002F5486 /* Go_jekContactsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E430BD5D2387A694002F5486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E430BD462387A691002F5486 /* Go-jekContactsApp */;
+			targetProxy = E430BD5C2387A694002F5486 /* PBXContainerItemProxy */;
+		};
+		E430BD682387A694002F5486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E430BD462387A691002F5486 /* Go-jekContactsApp */;
+			targetProxy = E430BD672387A694002F5486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E430BD4E2387A691002F5486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E430BD4F2387A691002F5486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E430BD532387A694002F5486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E430BD542387A694002F5486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E430BD6D2387A694002F5486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E430BD6E2387A694002F5486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E430BD702387A694002F5486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Go-jekContactsApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dd.com.Go-jekContactsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E430BD712387A694002F5486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Go-jekContactsApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dd.com.Go-jekContactsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E430BD732387A694002F5486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Go-jekContactsAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dd.com.Go-jekContactsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go-jekContactsApp.app/Go-jekContactsApp";
+			};
+			name = Debug;
+		};
+		E430BD742387A694002F5486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Go-jekContactsAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dd.com.Go-jekContactsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go-jekContactsApp.app/Go-jekContactsApp";
+			};
+			name = Release;
+		};
+		E430BD762387A694002F5486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Go-jekContactsAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dd.com.Go-jekContactsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Go-jekContactsApp";
+			};
+			name = Debug;
+		};
+		E430BD772387A694002F5486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Go-jekContactsAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dd.com.Go-jekContactsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Go-jekContactsApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E430BD422387A691002F5486 /* Build configuration list for PBXProject "Go-jekContactsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E430BD6D2387A694002F5486 /* Debug */,
+				E430BD6E2387A694002F5486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E430BD6F2387A694002F5486 /* Build configuration list for PBXNativeTarget "Go-jekContactsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E430BD702387A694002F5486 /* Debug */,
+				E430BD712387A694002F5486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E430BD722387A694002F5486 /* Build configuration list for PBXNativeTarget "Go-jekContactsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E430BD732387A694002F5486 /* Debug */,
+				E430BD742387A694002F5486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E430BD752387A694002F5486 /* Build configuration list for PBXNativeTarget "Go-jekContactsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E430BD762387A694002F5486 /* Debug */,
+				E430BD772387A694002F5486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E430BD3F2387A691002F5486 /* Project object */;
+}
