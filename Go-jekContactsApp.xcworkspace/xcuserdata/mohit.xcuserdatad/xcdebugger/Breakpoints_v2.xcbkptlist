@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Go-jekContactsApp/GKViewControllers/GKContactAddEditViewController.swift"
-            timestampString = "596701728.075438"
+            timestampString = "596800678.649229"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "145"
             endingLineNumber = "145"
-            landmarkName = "GKContactAddEditViewController"
-            landmarkType = "21">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Go-jekContactsApp/GKViewControllers/GKContactAddEditViewController.swift"
-            timestampString = "596701728.082006"
+            timestampString = "596800678.653744"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "76"
@@ -138,13 +138,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Go-jekContactsApp/GKViewControllers/GKContactAddEditViewController.swift"
-            timestampString = "596701728.0917571"
+            timestampString = "596800678.65415"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "164"
             endingLineNumber = "164"
-            landmarkName = "GKContactAddEditViewController"
-            landmarkType = "21">
+            landmarkName = "imagePickerControllerDidCancel(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Go-jekContactsApp/GKViewControllers/GKContactAddEditViewController.swift"
-            timestampString = "596701728.092292"
+            timestampString = "596800678.654479"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
@@ -458,7 +458,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Go-jekContactsApp/GKViewControllers/GKContactAddEditViewController.swift"
-            timestampString = "596701728.10361"
+            timestampString = "596800678.6549031"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
@@ -474,13 +474,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Go-jekContactsApp/GKViewControllers/GKContactAddEditViewController.swift"
-            timestampString = "596701728.103922"
+            timestampString = "596800678.655182"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            landmarkName = "GKContactAddEditViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -490,7 +490,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Go-jekContactsApp/GKViewControllers/GKContactAddEditViewController.swift"
-            timestampString = "596701728.10411"
+            timestampString = "596800678.65546"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -506,7 +506,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Go-jekContactsApp/GKViewControllers/GKContactAddEditViewController.swift"
-            timestampString = "596701728.104313"
+            timestampString = "596800678.655737"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "107"
